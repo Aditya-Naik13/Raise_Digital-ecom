@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{padding: 0px;
+    margin: 0px;
+
+}
+body{margin: 0px;
+    padding: 0px;
+    background-color:black;
+    font-family: 'Poppins',sans-serif;
+}
+.nav{
+    background-color: white;
+    z-index: 9;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-top{
+ margin-top: 5px;
+ margin-left: 5px;
+ margin-right:5px ;  
+   
+}
+.logo{
+    display: flex;
+    justify-content: space-between;  
+}
+.logo h1{
+    padding-top:40px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size:1.8em
+}
+.logo img{
+    width: 110px;
+   padding-left: 30px;
+   padding-top:10px;
+   padding-bottom:15px;
+   float: left;
+   
+}
+.nav-elements{
+width: 40%;
+float: right;
+padding-top: 40px;
+padding-bottom: 30px;
+margin-right: 40px;
+}
+.nav-elements a{
+text-decoration: none;
+padding-right: 30px ;
+float: right;
+color: black;
+font-weight: bold;
+font-family: inherit;
+font-size: 1.5em;
+justify-content: center;
+align-items: center;
+text-align: center;
+align-content: center;
+transition:300ms;
+}
+.nav-elements a:hover{
+    color: #ff0066;
+    
+}
+.main{
+    background-image: url(/Raise_Digital-ecom/main.jpg);
+    position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 25px;
+    position:absolute;
+
+}
+.main h1{
+    text-align: center;
+    padding: 300px;
+    font-size: 3em;
+    font-family: inherit;
+    transition: 300ms;
+    
+  
+}
+.scroll img{
+    width: 25px;
+    top:80
+    
+    }
+    .scroll{
+        position: relative;
+        align-items: center;
+         margin-top: 0px;
+         padding: 0px;
+        
+    }
