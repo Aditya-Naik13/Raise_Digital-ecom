@@ -188,6 +188,9 @@ nav .toggle-collapse .toggle-icons{
     nav .toggle-collapse{
         display: initial;
     }
+    .main-img h1{
+        margin-top: 50px;
+    }
     #about{
         margin-top: 520px;
     }
@@ -203,6 +206,7 @@ nav .toggle-collapse .toggle-icons{
         display: block;
         margin-left: 20px;
         margin-right: 20px;
-    }   
+    } 
+
         
 }
