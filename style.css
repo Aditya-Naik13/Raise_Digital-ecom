@@ -146,8 +146,109 @@ nav .toggle-collapse .toggle-icons{
  width: 50%;
  
 }
-.car-txt {
-    display: none;
+#products{
+
+}
+.item-cards{
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    border-radius: 40px;
+}
+.item-img img{
+    width: 300px;
+    padding: 25px;
+}
+.item-des{
+    padding: 25px;
+}
+.item-links{
+    padding-bottom: 10px;
+}
+.item-links a{
+    margin-inline:35px;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: #41E576;;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    
+}
+.item-links a:hover{
+    color: black;
+    
+}
+#support{
+    margin-top:100px;
+}
+.support-form{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.frm-txt h3{
+    margin-left: 80px;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+   
+    margin-right:100px;
+    
+}
+form input{
+    border: 1px solid #41E576;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50px;
+}
+form textarea{
+    border: 1px solid #41E576;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+form button{
+    color: white;
+    background-color: #41E576;
+    border: 0px;
+    border-radius: 30px;
+    transition:300ms;
+}
+form button:hover{
+    color: black;
+    scale: 1.2;
+}
+#footer-section{
+    margin-top: 100px;
+}
+footer{
+    padding: 25px;
+display: flex;
+color: white;
+background-color: black;
+justify-content: center;
+}
+footer h6{
+    padding-right: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: #41E576;
+}
+footer a:hover{
+    color: white;
 }
 
 
