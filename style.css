@@ -147,7 +147,7 @@ nav .toggle-collapse .toggle-icons{
  
 }
 #products{
-
+margin-top: 200px;
 }
 .item-cards{
     margin-top: 30px;
@@ -186,6 +186,31 @@ nav .toggle-collapse .toggle-icons{
 .item-links a:hover{
     color: black;
     
+}
+#key-features{
+    margin-top: 200px;
+}
+.feature-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-div ul{
+    margin-left: 50px;
+    padding: 50px;
+    background-color: #83e9a3;
+    border-radius: 20px;
+}
+.feature-div li{
+    list-style-type: none;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #41E576;
+    color: white;
+    border-radius: 20px;
+}
+.feature-div img{
+    width: 50%;
 }
 #support{
     margin-top:100px;
