@@ -184,12 +184,16 @@ margin-top: 200px;
     padding-bottom: 10px;
 }
 .item-links a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     margin-inline:35px;
     justify-content: space-between;
     text-decoration: none;
     background-color: #41E576;;
     color: white;
-    padding: 5px;
+    margin-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
